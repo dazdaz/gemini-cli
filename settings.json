@@ -1,0 +1,20 @@
+{
+  "theme": "Default",
+  "selectedAuthType": "gemini-api-key",
+  "preferredEditor": "vim",
+  "mcpServers": {
+    "kubernetes": {
+      "command": "python",
+      "args": [
+        "-m",
+        "kubectl_mcp_tool.mcp_server"
+      ],
+      "env": {
+        "KUBECONFIG": "/Users/myuser/.kube/config",
+        "PATH": "/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin",
+        "MCP_LOG_FILE": "/tmp/mcpserver-debug.log",
+        "MCP_DEBUG": "1"
+      }
+    }
+  }
+}
