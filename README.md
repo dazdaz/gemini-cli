@@ -3,6 +3,7 @@
 
 * https://github.com/google-gemini/gemini-cli/blob/main/docs/cli/configuration.md
 * https://github.com/google-gemini/gemini-cli/releases
+* https://cloud.google.com/blog/topics/developers-practitioners/gemini-cli-custom-slash-commands
 
 
 ## MCP Servers
