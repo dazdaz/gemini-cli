@@ -3,17 +3,16 @@
   "selectedAuthType": "gemini-api-key",
   "preferredEditor": "vim",
   "mcpServers": {
-    "kubernetes": {
-      "command": "python",
+    "cloud-run": {
+      "command": "npx",
       "args": [
-        "-m",
-        "kubectl_mcp_tool.mcp_server"
+        "-y",
+        "@google-cloud/cloud-run-mcp"
       ],
       "env": {
-        "KUBECONFIG": "/Users/myuser/.kube/config",
-        "PATH": "/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin",
-        "MCP_LOG_FILE": "/tmp/mcpserver-debug.log",
-        "MCP_DEBUG": "1"
+        "GOOGLE_CLOUD_PROJECT": "myproject",
+        "GOOGLE_CLOUD_REGION": "europe-west4",
+        "DEFAULT_SERVICE_NAME": "gem_service"
       }
     }
   }
