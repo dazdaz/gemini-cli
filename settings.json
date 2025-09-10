@@ -1,7 +1,7 @@
 {
-  "theme": "Default",
-  "selectedAuthType": "gemini-api-key",
   "preferredEditor": "vim",
+  "theme": "Shades Of Purple",
+  "selectedAuthType": "gemini-api-key",
   "mcpServers": {
     "cloud-run": {
       "command": "npx",
@@ -15,5 +15,8 @@
         "DEFAULT_SERVICE_NAME": "gem_service"
       }
     }
+  },
+  "accessibility": {
+    "disableLoadingPhrases": true
   }
 }
