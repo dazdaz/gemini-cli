@@ -17,6 +17,7 @@
     }
   },
   "accessibility": {
-    "disableLoadingPhrases": true
+    "disableLoadingPhrases": true,
+    "checkpointing": true
   }
 }
