@@ -16,4 +16,6 @@ curl -s -L https://raw.githubusercontent.com/GoogleCloudPlatform/cloud-run-mcp/m
 curl -s -L https://raw.githubusercontent.com/GoogleCloudPlatform/cloud-run-mcp/main/gemini-extension/GEMINI.md > ~/.gemini/extensions/cloud-run/gemini-extension/GEMINI.md
 ```
 
+## Folks writing about gemini-cli
 * https://medium.com/@jackwoth This Week in gemini-cli
+* https://medium.com/@iromin
