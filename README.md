@@ -15,3 +15,5 @@ mkdir -p ~/.gemini/extensions/cloud-run/gemini-extension && \
 curl -s -L https://raw.githubusercontent.com/GoogleCloudPlatform/cloud-run-mcp/main/gemini-extension.json > ~/.gemini/extensions/cloud-run/gemini-extension.json && \
 curl -s -L https://raw.githubusercontent.com/GoogleCloudPlatform/cloud-run-mcp/main/gemini-extension/GEMINI.md > ~/.gemini/extensions/cloud-run/gemini-extension/GEMINI.md
 ```
+
+* https://medium.com/@jackwoth This Week in gemini-cli
